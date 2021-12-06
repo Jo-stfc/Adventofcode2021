@@ -3,3 +3,4 @@ part_1=len([x[i] for i in range(len(x)-1) if x[i+1]>x[i]])
 print(part_1)
 y=[x[i]+x[i+1]+x[i+2] for i in range(len(x)-2)]
 part_2=len([y[i] for i in range(len(y)-1) if y[i+1]>y[i]])
+print(part_2)
